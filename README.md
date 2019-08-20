@@ -1,13 +1,7 @@
 # lightform
-Lightweight frontend framework for building responsive forms. Built on the lightframework.
-Edit, use for personal and or commercial purposes free 100%.
-
-To download a customized version of LightForms visit https://muayyat.com/light/forms/
-
-To view demo online visit https://muayyat.com/light/forms/demo
+An implementation of forms on the light framework 
 
 Contributing is easy, do so from Github or Contact me:
 Email: billah@muayyat.com
-Facebook: https://facebook.com/muayyat.billah
-Twitter: https://twitter.com/muayyat.billah
-Website: https://muayyat.com/contact
+Facebook: https://facebook.com/billah.muayyat
+Twitter: https://twitter.com/muayyat_billah
