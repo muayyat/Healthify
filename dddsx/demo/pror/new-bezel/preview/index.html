@@ -1,0 +1,234 @@
+﻿
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <title>New Bezel 1.0</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="Light Framework">
+    <meta name="Description" content="Simple and easy to use Frontend framework with little to no javascript">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/light.css">
+</head>
+<body is="light">
+    <menu style="position:fixed; z-index:1; top:0;">
+        <button class="open" onclick="document.getElementById('lmenu').style.width='250px'"></button>
+        <a href="" class="logo">New Bezel 1.0</a>
+        <div id="lmenu">
+            <a href="javascript:void(0)" class="close" onclick="this.parentElement.style.width='0%'">&times;</a>
+            <a href="javascript:void(0)" class="atl">Homepage</a>
+            <a href="features.html">Features</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </menu>
+    <div class="banner2">
+        Welcome to our Professional website where we showcase some of the services and things we do.
+        <div class="cards">
+            <a>Get Started</a>
+            <a>Learn more</a>
+        </div>
+    </div>
+
+    <div class="full" style="background:gold; margin:0; padding:6px;">
+        <h2>Theres no point reading the whole book when all you need is the title.</h2>
+
+        <div class="rcards">
+            <div class="rcard">
+                <h3>Coffee</h3>
+                Drink with us first, then you can tell us whats the deal.
+            </div>
+            <div class="rcard">
+                <h3>Business</h3>
+                Our services are customer centric, we ensure you get the best.
+            </div>
+            <div class="rcard">
+                <h3>Payments</h3>
+                Worry less as we make sure you get paid in time, you're first.
+            </div>
+        </div>
+    </div>
+    <div class="full">
+        <center><h3>Explore a bit of our Gallery</h3>
+        Click them to view more details about them.</center>
+        <div class="cards">
+            <div class="card" >
+                <img src="images/huy.jpg" onclick="onClick(this)" />
+            </div>
+            <div class="card">
+                <img src="images/plk.jpg" onclick="onClick(this)" />
+            </div>
+            <div class="card">
+                <img src="images/plk2.jpg" onclick="onClick(this)"/>
+            </div>
+            <div class="card">
+                <img src="images/plk3.jpg" onclick="onClick(this)"/>
+            </div>
+        </div>
+    </div>
+    <div class="galleryview" id="galleryview">
+        <a class="close" style="display:table;
+float:right;"onclick="this.parentElement.style.display='none'">X</a>
+        <img src="" id="galleryimg" />
+    </div>
+    <div class="cards">
+        <div class="card wh">
+            <h2>What we do</h2>
+            <ul>
+                <li>Exclusive Services</li>
+                <li>Best in Class Payment Solution</li>
+                <li>Neat At Its Core</li>
+                <li>Detailed analysis</li>
+                <li>Masterminded outcomes</li>
+            </ul>
+        </div>
+        <div class="card hw">
+            <h2>How we do</h2>
+            <ul>
+                <li>General assesment</li>
+                <li>Analysis checking</li>
+                <li>Proof reading</li>
+                <li>Future level</li>
+                <li>Last finalization</li>
+            </ul>
+        </div>
+    </div>
+    <div class="full">
+        <center><h3>Some people have trusted our works and how we do it</h3></center>
+        <div class="cards clients">
+            <div class="card">
+                <img src="images/wordpress.png" />
+                <span>Wordpress is a multipurpose CMS for building different types of websites.</span>
+            </div>
+            <div class="card">
+                <img src="images/skype.png" />
+                <span>We collaborate with Skype to ensure successfull service delivery.</span>
+            </div>
+            <div class="card">
+                <img src="images/dropbox.png" />
+                <span>DropBox has been our partner for quite a long time.</span>
+            </div>
+            <div class="card">
+                <img src="images/opera.png" />
+                <span>Opera has invested in it a lot too, to make sure its best.</span>
+            </div>
+            <div class="card">
+                <img src="images/amazon.png" />
+                <span> In the U.S, Amazon is in the chart too for the business.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="full">
+        <center><h3>Those who make it work include</h3></center>
+        <div class="cards">
+            <div class="card">
+                <img src="images/7.jpg" />
+                <b>Jeff Woods</b>
+                <br />
+                Role: Site Manager
+                <br />
+                <br />
+                <i> "I Love doing the stuffs"</i>
+            </div>
+            <div class="card">
+                <img src="images/8.jpg" />
+                <b>Linda Bruno</b><br />
+                Role: Chief Operator
+                <br />
+                <br />
+                <i>"Dont build what you cant sell at the end."</i>
+            </div>
+            <div class="card">
+                <img src="images/9.jpg" />
+                <b>Saif Khan</b><br />
+                Role: Project Analyst
+                <br />
+                <br />
+                <i>"Hard work in the right direction leads to success"</i>
+            </div>
+            <div class="card">
+                <img src="images/member-1.jpg" />
+                <b>Kissinger Jones</b><br />
+                Role: Co-Founder
+                <br />
+                <br />
+                <i>"Trust in one another, thats a good starting point"</i>
+            </div>
+        </div>
+    </div>
+    <center><h2>Go<u>t Questio</u>ns?</h2></center>
+
+    <div class="full cards">
+        <div class="card v">
+
+            <div class="rh">
+                <img src="icons/viber.svg" />
+                <big>Fast Support</big>
+                Our support team works 24/7 to assist you on anything. Feel free to get in touch.
+            </div>
+            <div class="rh">
+                <img src="icons/instagram.svg" />
+                <big>Fast Support</big>
+                Our support team works 24/7 to assist you on anything. Feel free to get in touch.
+            </div>
+        </div>
+
+        <form class="card">
+            <label>Firstname<input type="text" /></label>
+            <label>Lastname<input type="text" /></label>
+            <label>Email<input type="text" /></label>
+            <label>Subject<input type="text" /></label>
+            <label>Details<textarea></textarea></label>
+            <button>Submit</button>
+            <button style="float:right;">Cancel</button>
+        </form>
+    </div>
+    <div class="event cards">
+        <img src="icons/alarm-clock.svg" class="card" />
+        <div class="etex card">
+            Our next event is soon. Save the date
+            <div class="date">
+                29/11/2019
+            </div>
+            <div class="time">
+                07:00 AM
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="logofoot"></div>
+        <div class="newsl">
+            <h3>Subcribe to Our Newsletter</h3>
+            You can unsubscribe at any time.
+            <br />
+            <br />
+            <input type="text" /><input type="button" value="Go" />
+            <clear></clear>
+            <img src="icons/facebook.svg" />
+            <img src="icons/twitter.svg" />
+            <img src="icons/youtube.svg" />
+        </div>
+        <clear></clear>
+        <div class="cards" style="line-height:30px;">
+            <a href="">About Us &nbsp;</a>
+            <a href="">FAQ &nbsp;</a>
+            <a href="">Our Blog &nbsp;</a>
+            <a href="">Connect &nbsp;</a>
+            <a href="">Contact Us &nbsp;</a>
+            <a href="">Terms of Use &nbsp;</a>
+            <a href="">Privacy Policy &nbsp;</a>
+        </div>
+        <a href="https://github.com/muayyat" class="copy">&copy; Light Framework 2019</a>
+    </footer>
+</body>
+</html>
+<script>
+    function onClick(element) {
+        document.getElementById("galleryimg").src = element.src;
+        document.getElementById("galleryview").style.display = "block";
+    }
+</script>
